@@ -240,7 +240,7 @@
     <repository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
-      <url>https://repo.spring.io/snapshot</url>
+      <url>http://18.221.101.203:8081/repository/su-snapshots</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
@@ -248,9 +248,9 @@
     <repository>
       <id>spring-milestones</id>
       <name>Spring Milestones</name>
-      <url>https://repo.spring.io/milestone</url>
+      <url>http://18.221.101.203:8081/repository/su-release/</url>
       <snapshots>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
       </snapshots>
     </repository>
   </repositories>
